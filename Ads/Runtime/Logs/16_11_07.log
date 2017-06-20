@@ -1,0 +1,15 @@
+[ 2016-11-07T00:50:54+08:00 ] 127.0.0.1 /adGroup/index
+ERR: 无法加载模块:AdGroup
+
+[ 2016-11-07T00:51:07+08:00 ] 127.0.0.1 /adGroup/index
+ERR: 无法加载模块:AdGroup
+
+[ 2016-11-07T00:51:10+08:00 ] 127.0.0.1 /adGroup/index
+ERR: 无法加载模块:AdGroup
+
+[ 2016-11-07T00:51:42+08:00 ] 127.0.0.1 /adGroup/index
+ERR: 模板不存在[D:/xampp/htdocs/ads_ht/app/Tpl/AdGroup/campaigns.html]
+
+[ 2016-11-07T00:52:22+08:00 ] 127.0.0.1 /adGroup/index
+ERR: 无法加载模块:AdGroup
+

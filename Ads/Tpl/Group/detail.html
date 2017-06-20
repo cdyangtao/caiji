@@ -1,0 +1,185 @@
+<div class="container-fluid main-content">
+  <div class="page-title">
+    <h1>
+      广告组详情
+    </h1>
+  </div>
+  
+  <div class="row">
+      <div class="col-lg-12">
+        <div class="widget-container fluid-height">
+          <div class="heading tabs">
+            <i class="icon-sitemap"></i><?php echo $adGroup['name'];?>
+            <ul class="nav nav-tabs pull-right" data-tabs="tabs" id="tabs">
+              <li  class="active">
+                <a data-toggle="tab" href="#detail"><i class="icon-user"></i><span>Detail</span></a>
+              </li>
+              <li>
+                <a data-toggle="tab" href="#ads"><i class="icon-paper-clip"></i><span>Ads</span></a>
+              </li>
+              <li>
+                <a data-toggle="tab" href="#keywords"><i class="icon-user"></i><span>Keywords</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content padded" id="my-tab-content">
+
+            <!-- 详情 -->
+            <div class="tab-pane active" id="detail">            
+                <div class="widget-content padded clearfix">
+                  <table class="table table-striped table-bordered">                 
+                    <tbody>
+                      <?php foreach($adGroup as $field=>$value):?>
+                      <tr>
+                        <td>
+                          <?php echo $field; ?>
+                        </td>
+                        <td>
+                          <?php 
+                          if(!is_array($value)){
+                            echo $value;
+                          }else{
+                            echo '--';
+                          }
+                          ?>
+                        </td>
+                      </tr>
+                      <?php endforeach;?>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+
+            <!-- 广告 -->
+            <div class="tab-pane" id="ads">
+              <div class="widget-content padded clearfix">
+                  <table class="table table-striped table-bordered">                 
+                    <tbody>
+                      
+                      <tr>
+                        <td>Ad</td>
+                        <td>Status</td>
+                        <td>Labels</td>
+                        <td>ApprovalStatus</td>
+                        <td>AdType</td>
+                      </tr>
+                      <?php foreach($ads as $ad):?>
+                        <tr>
+                        <td>
+                        <?php echo $ad['ad']['headlinePart1'];?></br>
+                        <?php echo $ad['ad']['headlinePart2'];?></br>
+                        <?php echo $ad['ad']['finalUrls'][0];?></br>
+                        <?php echo $ad['ad']['description'];?>
+                        </td>
+                        <td><?php echo $ad['status'];?></td>
+                        <td><?php foreach($ad['labels'] as $label):?>
+                  <span class="label label-success" style="background:<?php echo $label['attribute']['backgroundColor'];?>"><?php echo $label['name'];?></span>
+                <?php endforeach;?></td>
+                        <td><?php echo $ad['approvalStatus'];?></td>
+                        <td><?php echo $ad['ad']['AdType'];?></td>
+                      </tr>
+                      <?php endforeach;?>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+
+            <!-- 关键词 -->
+            <div class="tab-pane" id="keywords">      
+                  <form>   
+              <div class="widget-content padded clearfix">              
+                  <table class="table table-striped table-bordered">                 
+                    <tbody> 
+                      <tr>
+                        <td class="check-header hidden-xs"><label><input id="checkAll"  type="checkbox"><span></span></label></td>    
+                        <td>Keyword</td>
+                        <td>Status</td>
+                        <td>Max. CPC</td>
+                        <td>Labels</td>
+                      </tr>
+                      <?php foreach($keywords as $keyword):?>
+                        <tr>
+                          <td class="check hidden-xs"><label><input name="keywords_edit" type="checkbox" value="<?php echo $keyword['criterion']['id'];?>"><span></span></label></td>
+                          <td><?php echo $keyword['criterion']['text'];?></td>
+                          <td><?php echo $keyword['userStatus'];?></td>
+                          <td>$<?php echo number_format($keyword['biddingStrategyConfiguration']['bids'][0]['bid']['microAmount']/1000000,2);?></td>
+                          <td><?php foreach($keyword['labels'] as $label):?>
+                            <span class="label label-success" style="background:<?php echo $label['attribute']['backgroundColor'];?>"><?php echo $label['name'];?></span>
+                            <?php endforeach;?></td>
+                        </tr>
+                      <?php endforeach;?>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="heading">
+                    <div class="col-md-2">
+                      <select class="form-control" name="status" id="keyword_status">
+                        <option value="1"> -- Edit -- </option>
+                        <option value="ENABLED">Enable</option>
+                        <option value="PAUSED">Paused</option>
+                        <!--<option value="REMOVED">Removed</option>-->
+                      </select>
+                    </div>
+                </div>
+                </form> 
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+$(function(){
+
+  $("#keyword_status").on("change",function(){
+    if(this.value=='1'){return false;}
+
+    var ids=[];
+    $(":checkbox:checked[name='keywords_edit']").each(function(){
+      ids.push(this.value);
+    });
+    var ids_str=ids.join("|");
+    if(ids.length>0){
+      //console.log(ids);return false;
+      ajaxLoading.start();
+      $.ajax({
+        type: "POST",
+        url: "<?php echo U('updateKeyword','',false);?>",
+        data: 'ids='+ids_str+'&adGroupId=<?php echo $adGroupId;?>'+'&status='+this.value,
+        cache:false,
+        dataType:'json',
+        success: function(msg){
+            ajaxLoading.end();
+            if(msg.status==1){
+              layer.open({
+                    title: '提示',
+                    content: '编辑成功',
+                    btn:['好的'],
+                    end: function(index){
+                        layer.close(index);   
+                        window.location.href="<?php echo U('detail','adGroupId='.$adGroupId,false); ?>";                                                                
+                    },
+                });
+            }else{
+              layer.open({
+                    title: '提示',
+                    content: '编辑败',
+                    btn:['好的'],
+                    yes: function(index){
+                        layer.close(index);                                                                      
+                    },
+                });
+            }
+        },
+      });
+    
+    }
+
+
+  });
+
+});
+</script>>

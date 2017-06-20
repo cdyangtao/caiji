@@ -1,0 +1,137 @@
+[ 2016-12-16T10:39:30+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2016-12-16T10:41:38+08:00 ] 127.0.0.1 /account/set
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-16T10:41:39+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2016-12-16T10:42:13+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-16T10:42:13+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2016-12-16T10:42:42+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-16T11:38:08+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-16T15:37:32+08:00 ] 127.0.0.1 /group/add
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-16T15:37:32+08:00 ] 127.0.0.1 /adGroup/addAd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:AdGroup
+
+[ 2016-12-16T15:38:16+08:00 ] 127.0.0.1 /adGroup/add
+ERR: 无法加载模块:AdGroup
+
+[ 2016-12-16T15:38:26+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-16T15:38:29+08:00 ] 127.0.0.1 /adGroup/add
+ERR: 无法加载模块:AdGroup
+
+[ 2016-12-16T15:39:55+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-16T16:15:06+08:00 ] 127.0.0.1 /adGroup/addAd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:AdGroup
+
+[ 2016-12-16T16:15:19+08:00 ] 127.0.0.1 /group/addAd
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-16T16:15:55+08:00 ] 127.0.0.1 /adGroup/addAd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:AdGroup
+
+[ 2016-12-16T16:16:05+08:00 ] 127.0.0.1 /group/addAd
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-16T16:17:00+08:00 ] 127.0.0.1 /adGroup/addAd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AdGroup
+
+[ 2016-12-16T16:17:13+08:00 ] 127.0.0.1 /group/addAd
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-16T16:17:33+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-16T16:18:04+08:00 ] 127.0.0.1 /group/addAd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-16T16:18:20+08:00 ] 127.0.0.1 /group/addAd
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-16T16:19:20+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-16T16:19:53+08:00 ] 127.0.0.1 /group/addAd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-16T16:20:19+08:00 ] 127.0.0.1 /group/addAd
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+

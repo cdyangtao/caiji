@@ -1,0 +1,803 @@
+[ 2017-06-09T00:17:18+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `omics` [ RunTime:0.013906s ]
+ERR: 1146:Table 'caiji.omics' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `omics`
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `omics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000568s ]
+ERR: 1146:Table 'caiji.omics' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `omics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC 
+
+[ 2017-06-09T00:19:26+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004315s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.011917s ]
+
+[ 2017-06-09T00:19:50+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003954s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000634s ]
+
+[ 2017-06-09T00:22:09+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004530s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='3'  ) ORDER BY `id` DESC  [ RunTime:0.000822s ]
+
+[ 2017-06-09T00:23:28+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004801s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='3'  ) ORDER BY `id` DESC  [ RunTime:0.000797s ]
+
+[ 2017-06-09T00:34:56+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004955s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `comics_record` [ RunTime:0.004087s ]
+ERR: 1146:Table 'caiji.comics_record' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comics_record`
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+
+[ 2017-06-09T00:36:10+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.005278s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `comics_record` [ RunTime:0.004378s ]
+ERR: 1146:Table 'caiji.comics_record' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comics_record`
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+
+[ 2017-06-09T00:37:19+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004268s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `comics_record` [ RunTime:0.003822s ]
+ERR: 1146:Table 'caiji.comics_record' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comics_record`
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+
+[ 2017-06-09T00:37:58+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004245s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `comics_record` [ RunTime:0.003565s ]
+ERR: 1146:Table 'caiji.comics_record' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comics_record`
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+
+[ 2017-06-09T00:39:18+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002316s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004173s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `comics_record` [ RunTime:0.003750s ]
+ERR: 1146:Table 'caiji.comics_record' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comics_record`
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 821 行.
+
+[ 2017-06-09T00:40:39+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003840s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.004098s ]
+
+[ 2017-06-09T00:40:55+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004074s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003829s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (1,'333','2017-06-09') [ RunTime:0.108472s ]
+
+[ 2017-06-09T00:46:05+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004503s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003820s ]
+SQL: UPDATE `caiji_record` SET `result`='444' WHERE ( `comic_id`='1' AND `caiji_date`='2017-6-9'  ) [ RunTime:0.051594s ]
+
+[ 2017-06-09T00:47:05+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003918s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.004369s ]
+SQL: UPDATE `caiji_record` SET `comic_id`=2,`result`='555',`caiji_date`='2017-6-9' WHERE ( `comic_id`='2' AND `caiji_date`='2017-6-9'  ) [ RunTime:0.000519s ]
+
+[ 2017-06-09T00:58:45+08:00 ] 127.0.0.1 /index/delComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004397s ]
+SQL: UPDATE `comics` SET `is_del`=1 WHERE ( `id`='5' ) [ RunTime:0.039210s ]
+
+[ 2017-06-09T00:58:48+08:00 ] 127.0.0.1 /index/delComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004259s ]
+SQL: UPDATE `comics` SET `is_del`=1 WHERE ( `id`='3' ) [ RunTime:0.016797s ]
+
+[ 2017-06-09T00:58:57+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003719s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000666s ]
+
+[ 2017-06-09T00:59:41+08:00 ] 127.0.0.1 /index/addComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004683s ]
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `comics` (`name`,`url`,`type`,`is_del`,`create_at`,`update_at`) VALUES ('云归深处','http://ac.qq.com/Comic/comicInfo/id/544150',1,0,'2017-06-09 00:59:41','2017-06-09 00:59:41') [ RunTime:0.071548s ]
+
+[ 2017-06-09T00:59:54+08:00 ] 127.0.0.1 /index/addComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003819s ]
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `comics` (`name`,`url`,`type`,`is_del`,`create_at`,`update_at`) VALUES ('卡尔·怀特','http://ac.qq.com/Comic/comicInfo/id/54217',1,0,'2017-06-09 00:59:54','2017-06-09 00:59:54') [ RunTime:0.026358s ]
+
+[ 2017-06-09T01:00:22+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003960s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000649s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 231 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 235 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 239 行.
+
+[ 2017-06-09T01:15:32+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003838s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000695s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 221 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 229 行.
+NOTIC: [2] Missing argument 2 for CaijiModel::upsert(), called in D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php on line 266 and defined D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003576s ]
+NOTIC: [8] Undefined variable: comic_id D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 114 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = null ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.007784s ]
+NOTIC: [8] Undefined variable: comic_id D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 125 行.
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (null,'{\"2017-06-09\":{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0}}}','2017-06-09') [ RunTime:0.046010s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 2 for CaijiModel::upsert(), called in D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php on line 266 and defined D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 110 行.
+NOTIC: [8] Undefined variable: comic_id D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 114 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = null ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000607s ]
+NOTIC: [8] Undefined variable: comic_id D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 125 行.
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (null,'{\"2017-06-09\":{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0},\"c_544150\":{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}}}','2017-06-09') [ RunTime:0.048955s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 2 for CaijiModel::upsert(), called in D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php on line 266 and defined D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 110 行.
+NOTIC: [8] Undefined variable: comic_id D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 114 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = null ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000652s ]
+NOTIC: [8] Undefined variable: comic_id D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 125 行.
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (null,'{\"2017-06-09\":{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0},\"c_544150\":{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"},\"c_550389\":{\"date\":\"2017-06-09\",\"name\":\"11111111\",\"attension\":\"92708\",\"popularity\":\"1.2\\u4ebf\",\"comments\":\"322\",\"monthTicketTotal\":\"22\"}}}','2017-06-09') [ RunTime:0.046456s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:18:11+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003844s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000711s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 221 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003687s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 7 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (7,'{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0}}','2017-06-09') [ RunTime:0.050499s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000623s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (6,'{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0},\"c_544150\":{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}}','2017-06-09') [ RunTime:0.092086s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000670s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (4,'{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0},\"c_544150\":{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"},\"c_550389\":{\"date\":\"2017-06-09\",\"name\":\"11111111\",\"attension\":\"92708\",\"popularity\":\"1.2\\u4ebf\",\"comments\":\"322\",\"monthTicketTotal\":\"22\"}}','2017-06-09') [ RunTime:0.035689s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:18:49+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.006427s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000810s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 221 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.004657s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 7 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000695s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0}}' WHERE ( `comic_id` = 7 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.051447s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.059954s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0},\"c_544150\":{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.037421s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.001041s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"c_54217\":{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0},\"c_544150\":{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"},\"c_550389\":{\"date\":\"2017-06-09\",\"name\":\"11111111\",\"attension\":\"92708\",\"popularity\":\"1.2\\u4ebf\",\"comments\":\"322\",\"monthTicketTotal\":\"22\"}}' WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.029484s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:19:43+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003861s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000826s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 221 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003789s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 7 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (7,'{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":null,\"popularity\":null,\"comments\":null,\"monthTicketTotal\":0}','2017-06-09') [ RunTime:0.032984s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000724s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (6,'{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}','2017-06-09') [ RunTime:0.043864s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000622s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (4,'{\"date\":\"2017-06-09\",\"name\":\"11111111\",\"attension\":\"92708\",\"popularity\":\"1.2\\u4ebf\",\"comments\":\"322\",\"monthTicketTotal\":\"22\"}','2017-06-09') [ RunTime:0.031450s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:20:03+08:00 ] 127.0.0.1 /index/delComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.005350s ]
+SQL: UPDATE `comics` SET `is_del`=1 WHERE ( `id`='7' ) [ RunTime:0.045258s ]
+
+[ 2017-06-09T01:20:20+08:00 ] 127.0.0.1 /index/addComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003731s ]
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `comics` (`name`,`url`,`type`,`is_del`,`create_at`,`update_at`) VALUES ('卡尔·怀特','http://ac.qq.com/Comic/comicInfo/id/54217',1,0,'2017-06-09 01:20:20','2017-06-09 01:20:20') [ RunTime:0.049368s ]
+
+[ 2017-06-09T01:21:47+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004568s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.006287s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000840s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (8,'{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10607\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}','2017-06-09') [ RunTime:0.074569s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000645s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.021292s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000620s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"11111111\",\"attension\":\"92708\",\"popularity\":\"1.2\\u4ebf\",\"comments\":\"322\",\"monthTicketTotal\":\"22\"}' WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.045843s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:23:26+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004541s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000831s ]
+
+[ 2017-06-09T01:24:09+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004621s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003651s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10607\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}' WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.060103s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000622s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.046832s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.001409s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"11111111\",\"attension\":\"92708\",\"popularity\":\"1.2\\u4ebf\",\"comments\":\"322\",\"monthTicketTotal\":\"22\"}' WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.034809s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:24:27+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.008872s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003918s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10607\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}' WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.034677s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000620s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.048454s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"11111111\",\"attension\":\"92708\",\"popularity\":\"1.2\\u4ebf\",\"comments\":\"322\",\"monthTicketTotal\":\"22\"}' WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.044835s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:25:16+08:00 ] 127.0.0.1 /index/addComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004036s ]
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `comics` (`name`,`url`,`type`,`is_del`,`create_at`,`update_at`) VALUES ('一人之下','http://ac.qq.com/Comic/comicInfo/id/531490',1,0,'2017-06-09 01:25:16','2017-06-09 01:25:16') [ RunTime:0.050036s ]
+
+[ 2017-06-09T01:25:23+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004671s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003552s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (9,'{\"date\":\"2017-06-09\",\"name\":\"\\u4e00\\u4eba\\u4e4b\\u4e0b\",\"attension\":\"1681051\",\"popularity\":\"57.2\\u4ebf\",\"comments\":\"21412\",\"monthTicketTotal\":\"9938\"}','2017-06-09') [ RunTime:0.063844s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.001503s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10607\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}' WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.031052s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000655s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.052699s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"11111111\",\"attension\":\"92708\",\"popularity\":\"1.2\\u4ebf\",\"comments\":\"322\",\"monthTicketTotal\":\"22\"}' WHERE ( `comic_id` = 4 ) AND ( `caiji_date` = '2017-06-09' ) [ RunTime:0.025621s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:27:35+08:00 ] 127.0.0.1 /index/addComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004509s ]
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\caiji\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `comics` (`name`,`url`,`type`,`is_del`,`create_at`,`update_at`) VALUES ('狐妖小红娘','http://ac.qq.com/Comic/comicInfo/id/518333',1,0,'2017-06-09 01:27:35','2017-06-09 01:27:35') [ RunTime:0.036691s ]
+
+[ 2017-06-09T01:27:43+08:00 ] 127.0.0.1 /index/delComic
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.005083s ]
+SQL: UPDATE `comics` SET `is_del`=1 WHERE ( `id`='4' ) [ RunTime:0.026453s ]
+
+[ 2017-06-09T01:27:50+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.007566s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003575s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (10,'{\"date\":\"2017-06-09\",\"name\":\"\\u72d0\\u5996\\u5c0f\\u7ea2\\u5a18\",\"attension\":\"2456114\",\"popularity\":\"76\\u4ebf\",\"comments\":\"67570\",\"monthTicketTotal\":\"17592\"}','2017-06-09') [ RunTime:0.071994s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000719s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (9,'{\"date\":\"2017-06-09\",\"name\":\"\\u4e00\\u4eba\\u4e4b\\u4e0b\",\"attension\":\"1681051\",\"popularity\":\"57.2\\u4ebf\",\"comments\":\"21412\",\"monthTicketTotal\":\"9942\"}','2017-06-09') [ RunTime:0.025968s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000690s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (8,'{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10607\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}','2017-06-09') [ RunTime:0.053733s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (6,'{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}','2017-06-09') [ RunTime:0.045187s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:29:12+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003976s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003620s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (10,'{\"date\":\"2017-06-09\",\"name\":\"\\u72d0\\u5996\\u5c0f\\u7ea2\\u5a18\",\"attension\":\"2456114\",\"popularity\":\"76\\u4ebf\",\"comments\":\"67570\",\"monthTicketTotal\":\"17597\"}','2017-06-09') [ RunTime:0.052864s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (9,'{\"date\":\"2017-06-09\",\"name\":\"\\u4e00\\u4eba\\u4e4b\\u4e0b\",\"attension\":\"1681051\",\"popularity\":\"57.2\\u4ebf\",\"comments\":\"21412\",\"monthTicketTotal\":\"9947\"}','2017-06-09') [ RunTime:0.039830s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000707s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (8,'{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10607\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}','2017-06-09') [ RunTime:0.046425s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (6,'{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}','2017-06-09') [ RunTime:0.022503s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:30:37+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004383s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003681s ]
+
+[ 2017-06-09T01:31:53+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003762s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.004165s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000686s ]
+
+[ 2017-06-09T01:33:31+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.004056s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.003604s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (10,'{\"date\":\"2017-06-09\",\"name\":\"\\u72d0\\u5996\\u5c0f\\u7ea2\\u5a18\",\"attension\":\"2456114\",\"popularity\":\"76\\u4ebf\",\"comments\":\"67570\",\"monthTicketTotal\":\"17604\"}','2017-06-10') [ RunTime:0.052082s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (9,'{\"date\":\"2017-06-09\",\"name\":\"\\u4e00\\u4eba\\u4e4b\\u4e0b\",\"attension\":\"1681051\",\"popularity\":\"57.2\\u4ebf\",\"comments\":\"21412\",\"monthTicketTotal\":\"9947\"}','2017-06-10') [ RunTime:0.053586s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (8,'{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10607\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}','2017-06-10') [ RunTime:0.019466s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: INSERT INTO `caiji_record` (`comic_id`,`result`,`caiji_date`) VALUES (6,'{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}','2017-06-10') [ RunTime:0.097409s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:34:14+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.006141s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.004242s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000591s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u72d0\\u5996\\u5c0f\\u7ea2\\u5a18\",\"attension\":\"2456114\",\"popularity\":\"76\\u4ebf\",\"comments\":\"67570\",\"monthTicketTotal\":\"17604\"}' WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.030925s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000773s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e00\\u4eba\\u4e4b\\u4e0b\",\"attension\":\"1681051\",\"popularity\":\"57.2\\u4ebf\",\"comments\":\"21412\",\"monthTicketTotal\":\"9947\"}' WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.029828s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000870s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10607\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}' WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.050994s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57157\",\"popularity\":\"7454.4\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"17\"}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.019367s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T01:38:25+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T01:38:48+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T01:41:53+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T01:42:53+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T01:48:11+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T01:48:31+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T01:58:41+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T01:59:26+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+ERR: Invalid cell coordinate 2
+
+[ 2017-06-09T02:00:20+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T02:02:26+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T02:04:30+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-09T22:41:40+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.002900s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.020107s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.011825s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000546s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u72d0\\u5996\\u5c0f\\u7ea2\\u5a18\",\"attension\":\"2458271\",\"popularity\":\"76.1\\u4ebf\",\"comments\":\"67615\",\"monthTicketTotal\":\"18799\"}' WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.062642s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e00\\u4eba\\u4e4b\\u4e0b\",\"attension\":\"1683542\",\"popularity\":\"57.3\\u4ebf\",\"comments\":\"21427\",\"monthTicketTotal\":\"10611\"}' WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.047643s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10611\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}' WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.044910s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000558s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57192\",\"popularity\":\"7479\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"20\"}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.045176s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T22:41:54+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.003514s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.002669s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u72d0\\u5996\\u5c0f\\u7ea2\\u5a18\",\"attension\":\"2458271\",\"popularity\":\"76.1\\u4ebf\",\"comments\":\"67615\",\"monthTicketTotal\":\"18799\"}' WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.054437s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000542s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e00\\u4eba\\u4e4b\\u4e0b\",\"attension\":\"1683542\",\"popularity\":\"57.3\\u4ebf\",\"comments\":\"21427\",\"monthTicketTotal\":\"10611\"}' WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.046470s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000612s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10611\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}' WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.043256s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57192\",\"popularity\":\"7479\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"20\"}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.019735s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T23:51:28+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\caiji\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `comics` [ RunTime:0.002918s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `comics` WHERE ( `is_del`='0' AND `type`='1'  ) ORDER BY `id` DESC  [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `caiji_record` [ RunTime:0.002564s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u72d0\\u5996\\u5c0f\\u7ea2\\u5a18\",\"attension\":\"2458526\",\"popularity\":\"76.1\\u4ebf\",\"comments\":\"67620\",\"monthTicketTotal\":\"18924\"}' WHERE ( `comic_id` = 10 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.054149s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000939s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e00\\u4eba\\u4e4b\\u4e0b\",\"attension\":\"1683737\",\"popularity\":\"57.3\\u4ebf\",\"comments\":\"21427\",\"monthTicketTotal\":\"10673\"}' WHERE ( `comic_id` = 9 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.050821s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u5361\\u5c14\\u00b7\\u6000\\u7279\",\"attension\":\"10611\",\"popularity\":\"587.1\\u4e07\",\"comments\":\"93\",\"monthTicketTotal\":0}' WHERE ( `comic_id` = 8 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.035505s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\caiji\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `caiji_record` WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: UPDATE `caiji_record` SET `result`='{\"date\":\"2017-06-09\",\"name\":\"\\u4e91\\u5f52\\u6df1\\u5904\",\"attension\":\"57204\",\"popularity\":\"7481.3\\u4e07\",\"comments\":\"559\",\"monthTicketTotal\":\"20\"}' WHERE ( `comic_id` = 6 ) AND ( `caiji_date` = '2017-06-10' ) [ RunTime:0.045244s ]
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 106 行.
+
+[ 2017-06-09T23:51:46+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+

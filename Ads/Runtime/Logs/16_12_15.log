@@ -1,0 +1,12 @@
+[ 2016-12-15T11:36:45+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2016-12-15T11:36:48+08:00 ] 127.0.0.1 /account/set
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-15T11:36:49+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2016-12-15T11:44:47+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+

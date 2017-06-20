@@ -1,0 +1,350 @@
+<div class="container-fluid main-content">
+  <div class="page-title">
+    <h1>
+      广告组
+    </h1>
+  </div>
+  <!-- DataTables Example -->
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="widget-container fluid-height clearfix">
+        <div class="heading">
+          <i class="icon-table"></i>AdGroup List<a class="btn btn-sm btn-primary-outline pull-right" href="<?php echo U('/group/add','',false);?>" id="add-campaign"><i class="icon-plus"></i>添加广告组</a>
+        </div>
+
+        <div class="widget-content padded clearfix">
+         <table class="table table-bordered table-striped" id="dataTable1">
+            <thead>
+              <th class="check-header hidden-xs">
+                <label><input id="checkAll" name="checkAll" type="checkbox"><span></span></label>
+              </th>
+              <th>Ad group</th>
+              <th>Campaign name</th>
+              <th>Status</th>
+              <th class="hidden-xs">Default Max. CPC</th>              
+              <th class="hidden-xs">labels</th>
+              <th width="200"></th>
+            </thead>
+            <tbody>
+              <?php foreach($adGroups as $adGroup):?>
+              <tr>
+                <td class="check hidden-xs">
+                  <label><input name="optionsRadios1" type="checkbox" value="option1"><span></span></label>
+                </td>
+                <td><a class="" href="<?php echo U('/group/detail','adGroupId='.$adGroup['id'],false);?>"><?php echo $adGroup['name'];?></a></td>
+                <td><?php echo $adGroup['campaignName'];?></td>
+                <td><?php echo $adGroup['status'];?></td>
+                <td -class="hidden-xs"><?php echo $adGroup['biddingStrategyConfiguration']['bids'][0]['bid']['microAmount']/1000000;?></td>                
+                <td class="hidden-xs">
+                <?php foreach($adGroup['labels'] as $label):?>
+                  <span class="label label-success" style="background:<?php echo $label['attribute']['backgroundColor'];?>"><?php echo $label['name'];?></span>
+                <?php endforeach;?>
+                </td>
+                <td class="actions">
+                  <div class="action-buttons">
+                    <a class="table-actions add_ad_a" custom_attr="<?php echo $adGroup['id']; ?>" data-toggle="modal" href="#add_ad"><i class="icon-plus"></i></a><a class="table-actions" data-toggle="modal" href="#groupEdit_<?php echo $adGroup['id']; ?>"><i class="icon-pencil"></i></a><a class="table-actions removeAdGroup" custom_attr="<?php echo $adGroup['id']; ?>"  href="javascript:;"><i class="icon-trash"></i></a>
+                  </div>
+                </td>
+              </tr>  
+
+              <?php endforeach;?>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end DataTables Example -->
+     
+        
+  <!-- 隐藏的编辑界面 -->  
+  <?php foreach($adGroups as $adGroup):?>
+    <div class="modal fade" id="groupEdit_<?php echo $adGroup['id']; ?>">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
+            <h4 class="modal-title">
+              广告组编辑
+            </h4>
+          </div>
+          <div class="modal-body">            
+            <div class="widget-content padded">
+              <form action="<?php echo U('update','',false);?>" class="form-horizontal" method="POST">
+              <input type="hidden" name="id" value="<?php echo $adGroup['id'];?>" />
+                <div class="form-group">
+                  <label class="control-label col-md-3">Status</label>
+                  <div class="col-md-7">
+                    <select class="form-control" name="status">
+                      <option value="ENABLED" <?php if($adGroup['status']=='ENABLED'): ?>selected=""<?php endif;?> >Enable</option>
+                      <option value="PAUSED"   <?php if($adGroup['status']=='PAUSED'): ?>selected=""<?php endif;?> >Paused</option>
+                      <option value="REMOVED" <?php if($adGroup['status']=='REMOVED'): ?>selected=""<?php endif;?> >Removed</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-md-3">Name</label>
+                  <div class="col-md-7">
+                    <input class="form-control" placeholder="Text" type="text" name="name" value="<?php echo $adGroup['name'];?>">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-md-3">Default Max. CPC</label>
+                  <div class="col-md-4">
+                    <div class="input-group">
+                      <span class="input-group-addon">$</span><input class="form-control" type="text" name="cpc_amount" value="<?php echo $adGroup['biddingStrategyConfiguration']['bids'][0]['bid']['microAmount']/1000000;?>"></input>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-md-3"></label>
+                  <div class="col-md-7">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                    <button class="btn btn-default-outline" data-dismiss="modal">Cancel</button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default-outline" data-dismiss="modal" type="button">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>   
+    <?php endforeach;?>
+  <!-- end 隐藏的编辑界面 -->        
+
+  <!-- add Ad -->
+  <div class="modal fade" id="add_ad">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
+          <h4 class="modal-title">
+            添加广告
+          </h4>
+        </div>
+        <div class="modal-body">
+
+          <div class="col-lg-12">
+              <div class="widget-container fluid-height clearfix">
+                <div class="heading">
+                  <i class="icon-reorder"></i>广告设置
+                </div>
+                <div class="widget-content padded">
+                  <form action="<?php echo U('addAd','',false);?>" method="POST" id='add_ad_form' class="form-horizontal">
+                    <input type="hidden" name="adGroupId" value="" id="add_adGroupId"/>
+                    
+
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="finalUrl">Final URL</label>
+                      <div class="col-md-7">
+                        <input class="form-control" id="finalUrl" placeholder="Text" type="text" name="finalUrl" />
+                      </div>
+                    </div>
+                   
+                    <div class="form-group">
+                      <label class="control-label col-md-3">Headline 1</label>
+                     <div class="col-md-7">
+                        <input class="form-control" placeholder="Text" type="text" name="headline1" />
+                      </div>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label class="control-label col-md-3">Headline 2</label>
+                      <div class="col-md-7">
+                        <input class="form-control" placeholder="Text" type="text" name="headline2" />
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="control-label col-md-3">Path</label>
+                      <label class="control-label col-md-1">/</label><div class="col-md-2"><input class="form-control" placeholder="path1" type="text" name="path1" /></div><label class="control-label col-md-1">/</label><div class="col-md-2"><input class="form-control" placeholder="path2" type="text" name="path2" /></div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="control-label col-md-3">Description</label>
+                      <div class="col-md-7">
+                        <textarea class="form-control" rows="3" name="desc"></textarea>
+                      </div>
+                    </div>
+
+                    
+                    <div class="form-group">
+                      <label class="control-label col-md-3"></label>
+                      <div class="col-md-7">
+                        <!--<button class="btn btn-primary" type="submit">Submit</button>-->
+                        <input class="btn btn-primary" type="submit" value="Submite">
+                      </div>
+                    </div>
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        </div>
+       <!--  <div class="modal-footer">
+          <button class="btn btn-primary" type="button">Save Changes</button><button class="btn btn-default-outline" data-dismiss="modal" type="button">Close</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- end add Ad -->
+
+</div>
+
+<script type="text/javascript">
+$(function(){
+  
+
+  $(".removeAdGroup").on("click",function(index){
+    var adGroupId=$(this).attr('custom_attr');
+    //console.log(adGroupId);return;
+    layer.open({
+        title: '提示',
+        content: '确认要删除该广告组 ?',
+        btn:['确定','取消'],
+        yes: function(index){
+            ajaxLoading.start();
+            $.ajax({
+              type: "POST",
+              url: "<?php echo U('remove','',false);?>",
+              data: "adGroupId="+adGroupId,
+              cache:false,
+              dataType:'json',
+              success: function(msg){
+                 ajaxLoading.end();
+                 layer.close(index);  
+                 if(msg.status==1){
+                    layer.open({
+                          title: '提示',
+                          content: '删除成功',
+                          btn:['好的'],
+                          end: function(index){
+                              layer.close(index);   
+                              window.location.href="<?php echo U('index','',false); ?>";                                                                
+                          },
+                      });
+                 }else{
+                    layer.open({
+                          title: '提示',
+                          content: '删除失败',
+                          btn:['好的'],
+                          yes: function(index){
+                              layer.close(index);                                                                      
+                          },
+                      });
+                 }
+              },
+
+            });                                                               
+          },
+          no:function(index){
+            layer.close(index);  
+          }
+      });
+       
+    }) 
+
+
+
+
+  $("#add_ad_form").validate({
+      rules: {
+        finalUrl: "required",
+        headline1: "required",
+        headline2: "required",
+        desc: "required",       
+      },
+      messages: {
+        finalUrl: "cant be empty",
+        headline1: "cant be empty",
+        headline2: "cant be empty",
+        desc: "cant be empty",
+      }
+  });
+  $(".add_ad_a").on("click",function(){
+    var adGroupId=$(this).attr('custom_attr');
+    $("#add_adGroupId").val(adGroupId);
+  });
+  $("#add_ad_form").on("submit",function(index){
+  
+    var formData=$(this).serialize();
+    if($(this).valid()){
+      ajaxLoading.start();
+      $.ajax({
+        type: "POST",
+        url: "<?php echo U('/group/addAd','',false);?>",
+        data: formData,
+        cache:false,
+        dataType:'json',
+        success: function(msg){
+            ajaxLoading.end();
+            layer.close(index);  
+            if(msg.status==1){
+              layer.open({
+                    title: '提示',
+                    content: '添加广告成功',
+                    btn:['好的'],
+                    end: function(index){
+                        layer.close(index);   
+                        window.location.href="<?php echo U('/group/index','',false); ?>";                                                                
+                    },
+                });
+            }else{
+              layer.open({
+                    title: '提示',
+                    content: '添加广告失败',
+                    btn:['好的'],
+                    yes: function(index){
+                        layer.close(index);                                                                      
+                    },
+                });
+            }
+        },
+      });
+    }
+    
+    
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  });
+
+
+  
+</script>>

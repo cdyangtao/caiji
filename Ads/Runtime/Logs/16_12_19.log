@@ -1,0 +1,33 @@
+[ 2016-12-19T10:48:42+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2016-12-19T10:48:44+08:00 ] 127.0.0.1 /account/set
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-12-19T10:48:45+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2016-12-19T10:48:47+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-19T10:50:38+08:00 ] 127.0.0.1 /group/detail/adGroupId/34147788893
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-19T10:51:54+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-19T13:16:05+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2016-12-19T13:17:27+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-19T13:18:23+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-19T13:29:48+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-19T16:28:05+08:00 ] 127.0.0.1 /group/index
+NOTIC: 建议使用I方法替代_get
+

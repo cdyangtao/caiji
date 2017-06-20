@@ -1,0 +1,251 @@
+[ 2016-11-08T10:08:07+08:00 ] 127.0.0.1 /adGroup/index
+ERR: 无法加载模块:AdGroup
+
+[ 2016-11-08T10:09:11+08:00 ] 127.0.0.1 /adGroup/index
+ERR: 无法加载模块:AdGroup
+
+[ 2016-11-08T10:09:12+08:00 ] 127.0.0.1 /adGroup/index
+ERR: 无法加载模块:AdGroup
+
+[ 2016-11-08T15:21:32+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T15:22:46+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T15:25:26+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T15:26:27+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T15:52:58+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T15:56:12+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T15:58:17+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T15:59:42+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T16:01:59+08:00 ] 127.0.0.1 /ad_group/update
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:21:41+08:00 ] 127.0.0.1 /ad_group/add
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:32:53+08:00 ] 127.0.0.1 /ad_group/remove
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:34:04+08:00 ] 127.0.0.1 /ad_group/remove
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:49:49+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:50:40+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:51:04+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:51:31+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:54:03+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+ERR: 模板不存在[D:/xampp/htdocs/ads_ht/app/Tpl/AdGroup/detail.html]
+
+[ 2016-11-08T17:54:20+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:58:57+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:59:08+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:59:32+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T17:59:46+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:00:05+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:06:07+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:06:55+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:09:51+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:12:30+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:13:03+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:28:41+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:29:24+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:33:23+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:33:24+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:36:00+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:37:10+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:37:20+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:37:37+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:39:36+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:49:46+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:50:19+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:56:49+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:58:37+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T18:59:21+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:04:26+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:05:18+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:05:43+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:05:52+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:06:41+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:07:21+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/34147788893
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:35:38+08:00 ] 127.0.0.1 /ad_group/add
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:41:11+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:42:23+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:42:38+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:42:47+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:43:08+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:43:24+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:43:38+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:43:39+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:43:48+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-08T19:44:10+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-08T19:44:17+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:44:40+08:00 ] 127.0.0.1 /adGroup/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-08T19:44:41+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-08T19:44:44+08:00 ] 127.0.0.1 /adGroup/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-08T19:48:51+08:00 ] 127.0.0.1 /adGroup/index/campaignId/683751251
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-08T19:49:05+08:00 ] 127.0.0.1 /adGroup/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-08T19:49:20+08:00 ] 127.0.0.1 /adGroup/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-08T19:49:54+08:00 ] 127.0.0.1 /adGroup/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-08T19:49:59+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+

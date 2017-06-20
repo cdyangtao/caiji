@@ -1,0 +1,256 @@
+<div class="container-fluid main-content">
+  <div class="page-title">
+    <h1>
+      漫画采集
+    </h1>
+  </div>
+  <!-- DataTables Example -->
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="widget-container fluid-height clearfix">
+        
+
+
+        <div class="heading tabs">
+          <ul class="nav nav-tabs pull-left" data-tabs="tabs" id="tabs">
+            <li  class="active">
+              <a data-toggle="tab" href="#qq"><i class="icon-linux"></i><span>腾讯</span></a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#ads"><i class="icon-paper-clip"></i><span>网易</span></a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#keywords"><i class="icon-bold"></i><span>布卡</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="heading">
+            <a class="btn btn-sm btn-primary-outline pull-right" data-toggle="modal" href="#myModal" id="add-campaign"><i class="icon-plus"></i>添加漫画</a>
+          </div>
+
+        <div class="tab-content padded" id="my-tab-content">
+
+          
+
+          <!-- QQ -->
+          <div class="tab-pane active" id="qq"> 
+
+            <div class="widget-content padded clearfix">
+
+              <table class="table table-bordered table-striped">
+                <thead>
+                  <th class="check-header hidden-xs">
+                    <label><input id="checkAll" name="checkAll" type="checkbox"><span></span></label>
+                  </th>
+                  <th>漫画</th>
+                  <th>地址</th>
+                  <th width="75"></th>
+                </thead>
+                <tbody>
+                  
+                  <tr>
+                    <td class="check hidden-xs">
+                      <label><input name="optionsRadios1" type="checkbox" value="option1"><span></span></label>
+                    </td>
+                    <td>1</td>
+                    <td>---</td>
+                   
+                    <td class="actions">
+                      <div class="action-buttons">
+                       <a class="table-actions removeCampaign" custom_attr="<?php echo $campaign['id']; ?>"  href="javascript:;"><i class="icon-trash"></i></a>
+                      </div>
+                    </td>
+                  </tr>  
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- qq end -->
+
+          <!-- 163 -->
+          <div class="tab-pane" id="wangyi">     
+
+            <div class="widget-content padded clearfix">
+             <table class="table table-bordered table-striped">
+                <thead>
+                  <th class="check-header hidden-xs">
+                    <label><input id="checkAll" name="checkAll" type="checkbox"><span></span></label>
+                  </th>
+                  <th>漫画</th>
+                  <th>地址</th>
+                  <th width="75"></th>
+                </thead>
+                <tbody>
+                  
+                  <tr>
+                    <td class="check hidden-xs">
+                      <label><input name="optionsRadios1" type="checkbox" value="option1"><span></span></label>
+                    </td>
+                    <td>2</td>
+                    <td>---</td>
+                   
+                    <td class="actions">
+                      <div class="action-buttons">
+                       <a class="table-actions removeCampaign" custom_attr="<?php echo $campaign['id']; ?>"  href="javascript:;"><i class="icon-trash"></i></a>
+                      </div>
+                    </td>
+                  </tr>  
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- 163 end-->
+
+          <!-- buka -->
+          <div class="tab-pane" id="buka">     
+
+            <div class="widget-content padded clearfix">
+             <table class="table table-bordered table-striped">
+                <thead>
+                  <th class="check-header hidden-xs">
+                    <label><input id="checkAll" name="checkAll" type="checkbox"><span></span></label>
+                  </th>
+                  <th>漫画</th>
+                  <th>地址</th>
+                  <th width="75"></th>
+                </thead>
+                <tbody>
+                  
+                  <tr>
+                    <td class="check hidden-xs">
+                      <label><input name="optionsRadios1" type="checkbox" value="option1"><span></span></label>
+                    </td>
+                    <td>3</td>
+                    <td>---</td>
+                   
+                    <td class="actions">
+                      <div class="action-buttons">
+                       <a class="table-actions removeCampaign" custom_attr="<?php echo $campaign['id']; ?>"  href="javascript:;"><i class="icon-trash"></i></a>
+                      </div>
+                    </td>
+                  </tr>  
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- buka end-->
+
+        </div>
+
+        <div class="heading">
+          <a class="btn btn-sm btn-primary-outline pull-right" data-toggle="modal" href=";" id="caiji"><i class="icon-play"></i>开始采集</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- end DataTables Example -->
+
+    
+
+
+  <!-- add comic -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button>
+          <h4 class="modal-title">
+            设置
+          </h4>
+        </div>
+        <form action="<?php echo U('add','',false);?>" method="POST" class="form-horizontal">
+          <div class="modal-body">
+
+            <div class="col-lg-12">
+                <div class="widget-container fluid-height clearfix">
+                  <div class="heading">
+                    <i class="icon-reorder"></i>添加漫画
+                  </div>
+                  <div class="widget-content padded">
+                      <div class="form-group">
+                        <label class="control-label col-md-2">漫画名</label>
+                        <div class="col-md-7">
+                          <input class="form-control"  type="text" name="comicName" />
+                        </div>
+                      </div>
+                     <div class="form-group">
+                        <label class="control-label col-md-2">地址</label>
+                        <div class="col-md-7">
+                          <input class="form-control"  type="text" name="url" />
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="submit">提交</button><button class="btn btn-default-outline" data-dismiss="modal" type="button">取消</button>
+          </div>
+        </form>
+
+      </div>
+       
+      </div>
+    </div>
+  </div>
+  <!--  add comic end-->
+</div>
+
+<script type="text/javascript">
+$(function(){
+
+  $(".removeCampaign").on("click",function(index){
+    var campaignId=$(this).attr('custom_attr');
+    //console.log(campaignId);return;
+    layer.open({
+        title: '提示',
+        content: '确认要删除该广告系列 ?',
+        btn:['确定','取消'],
+        yes: function(index){
+            ajaxLoading.start();
+            $.ajax({
+              type: "POST",
+              url: "<?php echo U('remove','',false);?>",
+              data: "campaignId="+campaignId,
+              cache:false,
+              dataType:'json',
+              success: function(msg){
+                 ajaxLoading.end();
+                 layer.close(index);  
+                 if(msg.status==1){
+                    layer.open({
+                          title: '提示',
+                          content: '删除成功',
+                          btn:['好的'],
+                          yes: function(index){
+                              layer.close(index);   
+                              window.location.href="<?php echo U('index','',false); ?>";                                                                  
+                          },
+                      });
+                 }else{
+                    layer.open({
+                          title: '提示',
+                          content: '删除失败',
+                          btn:['好的'],
+                          yes: function(index){
+                              layer.close(index);                                                                      
+                          },
+                      });
+                 }
+              },
+
+            });                                                               
+        },
+        no:function(index){
+          layer.close(index);  
+        }
+    });
+     
+  }) 
+});
+
+
+</script>>

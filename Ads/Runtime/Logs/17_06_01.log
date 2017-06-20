@@ -1,0 +1,426 @@
+[ 2017-06-01T00:59:18+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] include(./caiji_record/qq.php): failed to open stream: No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 61 行.
+NOTIC: [2] include(): Failed opening './caiji_record/qq.php' for inclusion (include_path='D:\xampp\php\PEAR;D:\xampp\htdocs\caiji/Extend/Vendor/') D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 64 行.
+
+[ 2017-06-01T01:00:58+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] include(./caiji_record/qq.php): failed to open stream: No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 61 行.
+NOTIC: [2] include(): Failed opening './caiji_record/qq.php' for inclusion (include_path='D:\xampp\php\PEAR;D:\xampp\htdocs\caiji/Extend/Vendor/') D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 64 行.
+
+[ 2017-06-01T01:01:30+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T01:02:46+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(D:\xampp\htdocs\caiji\Ads\Lib\Action/cookie_buka.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 162 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 162 行.
+
+[ 2017-06-01T01:03:21+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T01:03:39+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T01:03:52+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T01:19:28+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T01:22:40+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T01:23:32+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-06-01T01:23:52+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T10:27:26+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(D:\xampp\htdocs\caiji\Ads\Lib\Action/cookie_buka.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 164 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 166 行.
+
+[ 2017-06-01T10:27:36+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T10:48:35+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T10:49:10+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T10:49:51+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T10:50:01+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T10:50:11+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T10:50:21+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-01T10:50:31+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-01T10:50:46+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-01T10:51:06+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T11:13:19+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T11:13:29+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T11:22:44+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T11:23:57+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T11:24:27+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T11:41:57+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(D:\xampp\htdocs\caiji\Ads\Lib\Action/cookie_buka.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 168 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 170 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 170 行.
+
+[ 2017-06-01T11:42:25+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T15:20:08+08:00 ] 127.0.0.1 /index/export
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T16:44:24+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T16:47:11+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T16:48:35+08:00 ] 127.0.0.1 /index/caijiwangyi
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 102 行.
+
+[ 2017-06-01T16:48:36+08:00 ] 127.0.0.1 /index/caijiwangyi
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 102 行.
+
+[ 2017-06-01T16:48:44+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T16:49:15+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(D:\xampp\htdocs\caiji\Ads\Lib\Action/cookie_buka.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 169 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 171 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 171 行.
+
+[ 2017-06-01T16:49:16+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(D:\xampp\htdocs\caiji\Ads\Lib\Action/cookie_buka.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 169 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 171 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\caiji\Ads\Lib\Action\IndexAction.class.php 第 171 行.
+
+[ 2017-06-01T16:49:24+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:01:47+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-01T17:01:47+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-01T17:02:22+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:02:23+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:02:29+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:04:24+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:04:25+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:04:26+08:00 ] 127.0.0.1 /index/caijiqq
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:04:32+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:13:19+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-01T17:15:25+08:00 ] 127.0.0.1 /index/caijiwangyi
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 102 行.
+
+[ 2017-06-01T17:15:26+08:00 ] 127.0.0.1 /index/caijiwangyi
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] unlink(./cookie.txt): No such file or directory D:\xampp\htdocs\caiji\Ads\Lib\Model\CaijiModel.class.php 第 102 行.
+
+[ 2017-06-01T17:15:35+08:00 ] 127.0.0.1 /index/export
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+

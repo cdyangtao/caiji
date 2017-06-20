@@ -1,0 +1,21 @@
+[ 2016-10-30T21:08:29+08:00 ] 127.0.0.1 /index/index?optionsRadios1=option2
+ERR: 无法加载模块:index
+
+[ 2016-10-30T21:08:34+08:00 ] 127.0.0.1 /index/index
+ERR: 无法加载模块:index
+
+[ 2016-10-30T21:08:59+08:00 ] 127.0.0.1 /index.php/index/index
+ERR: 无法加载模块:index
+
+[ 2016-10-30T21:09:03+08:00 ] 127.0.0.1 /index/index
+ERR: 无法加载模块:index
+
+[ 2016-10-30T21:09:06+08:00 ] 127.0.0.1 /index/index
+ERR: 无法加载模块:index
+
+[ 2016-10-30T21:09:58+08:00 ] 127.0.0.1 /doctor/index
+ERR: 无法加载模块:doctor
+
+[ 2016-10-30T21:15:44+08:00 ] 127.0.0.1 /Doctor/index
+ERR: 模板不存在[D:/xampp/htdocs/ads_ht/app/Tpl/Doctor/campaigns.html]
+

@@ -1,0 +1,12 @@
+[ 2016-11-13T23:24:12+08:00 ] 127.0.0.1 /adGroup/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-13T23:24:19+08:00 ] 127.0.0.1 /adGroup/detail/adGroupId/36383408392
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-13T23:24:24+08:00 ] 127.0.0.1 /adGroup/index
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-11-13T23:44:25+08:00 ] 127.0.0.1 /adGroup/index
+NOTIC: 建议使用I方法替代_get
+
