@@ -15,14 +15,26 @@ class IndexAction extends Action
 
     CONST STATUS_FAIL = 2;
 
+    function __construct(){
+        parent::__construct();
+        error_reporting(E_ALL);
+        $is_login=session('is_login');
+        if(empty($is_login) && !$_POST){
+            layout(false);
+            $this->display('login');
+            exit;
+        }
+        //exit;
+    }
+    
     public function index()
     {
         $data = M("Comics");
         $result = $data->where("`is_del`='0' AND `type`='1'")
             ->order("`id` DESC")
             ->select();
-        // echo '<pre>';print_r($result);die;
-        error_reporting(E_ALL);
+        //echo '<pre>';print_r($result);die;
+        
         layout('Layout/layout');
         $this->assign([
             'data' => $result
@@ -294,7 +306,8 @@ class IndexAction extends Action
             $url_target = "http://ac.qq.com/Comic/getMonthTicketInfo/id/" . $id . "?_=".$caiji_model->getRamdom(10000000000,100000000000); 
             $content = $caiji_model->get_content($url_target, $referer_url);            
             $content = json_decode($content);
-            $ar['monthTicketTotal'] = $content->monthTicket->monthTotal;
+            //$ar['monthTicketTotal'] = $content->monthTicket->monthTotal;
+            $ar['monthTicketTotal'] = $content->monthTicket->mtNum;
             
             
             // 评价数\话题数，需要抓取一次新页面
@@ -476,7 +489,6 @@ class IndexAction extends Action
         $time = date('H:i:s');
         $url_zhongzhuan = "http://td.buka.cn/user/manga"; // 中转页
         
-
         /* 第四步：进入中转页获取列表页url，再从列表页进入目标页获取最终数据 */
         // 获取登中转页的信息
         $content = $caiji_model->get_content($url_zhongzhuan, $referer, 1);
@@ -485,7 +497,7 @@ class IndexAction extends Action
         
         // 列表页地址
         $url_target2 = $arr[0][1];
-        
+        //echo $url_target2;die;
         // 匹配页面信息
         $caiji_model->visit4cookie($url_target2);
         
@@ -503,8 +515,10 @@ class IndexAction extends Action
             }
             
             // 最终页面
-            $url = 'http://td-stat.sosobook.cn/mangainfo.php?mid=' . $id;
+            //$url = 'http://td-stat.sosobook.cn/mangainfo.php?mid=' . $id;
+            //echo $url;die;
             $content = $caiji_model->get_content($url, $url_zhongzhuan);
+            //echo $content;die;
             preg_match_all($preg_2, $content, $arr, PREG_SET_ORDER);
             
             // 组装数据
@@ -517,7 +531,7 @@ class IndexAction extends Action
             
             $record['c_' . $comic_id] = $ar;
             // 输出内容
-            // echo '<pre>';print_r($record);die;
+            //echo '<pre>';print_r($record);die;
             $caiji_model->upsert($ar, $comic_id,self::TYPE_BUKA);
             $caiji_model->finishComicGathering($comic_id);
         }
@@ -539,6 +553,34 @@ class IndexAction extends Action
         $result['finish'] = $model->getComicStatusInfo($type, self::STATUS_FINISH);
         $result['fail'] = $model->getComicStatusInfo($type, self::STATUS_FAIL);
         $this->ajaxReturn($result, '数据获取成功！', 1);
+    }
+    
+    /**
+     * 登陆
+     * */
+    function login(){
+        $username   = $this->_post("usr");
+        $pwd        = $this->_post("pwd");
+        if($_POST){
+            if($username!='pxtar' || $pwd!='Pxtar2017^'){
+                $this->error("账号或者密码错误！",U('index','',false));
+            }else{
+                session('is_login','1');
+                $this->success("登陆成功！",U('index','',false));
+            }
+        }else{
+            $this->error("error",U('index','',false));
+        }
+        
+    }
+    
+    /**
+     * 登出
+     * */
+    function logout(){
+            
+        session('is_login','0');
+        $this->success("已登出！",U('index','',false));
     }
     
     public function test()

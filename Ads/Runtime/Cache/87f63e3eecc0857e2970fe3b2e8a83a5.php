@@ -39,12 +39,42 @@
 <div class="modal-shiftfix">
 <!-- Navigation -->
 <div class="navbar navbar-fixed-top scroll-hide">
-  <div class="container-fluid top-bar">
+  <style type="text/css">
+	.navbar .container-fluid.top-bar .logo {
+      background: url("__PUBLIC__/se7en/images/pxtar-logo.png") no-repeat 0 0;
+      background-size:90px;
+          width: 100px;
+    	height: 30px;
+  }
+</style>
+<div class="container-fluid top-bar">
           
-          <button class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="logo" href="index-2.html">se7en</a>
+          <!-- <button class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="logo" href="index-2.html">se7en</a>
           <form class="navbar-form form-inline col-lg-2 hidden-xs">
             <input class="form-control" placeholder="Search" type="text">
-          </form>
+          </form> -->
+
+
+ 		<div class="pull-right">
+            <ul class="nav navbar-nav pull-right">
+				<li class="dropdown user hidden-xs"><a data-toggle="dropdown" class="dropdown-toggle" href="#">
+	                <img width="34" height="34" src="__PUBLIC__/se7en/images/user.png" />管理员<b class="caret"></b></a>
+	                <ul class="dropdown-menu">
+	                 <!--  <li><a href="#">
+	                    <i class="icon-user"></i>My Account</a>
+	                  </li>
+	                  <li><a href="#">
+	                    <i class="icon-gear"></i>Account Settings</a>
+	                  </li> -->
+	                  <li><a href="<?php echo U('Logout','',false);?>">
+	                    <i class="icon-signout"></i>Logout</a>
+	                  </li>
+	                </ul>
+              	</li>
+
+            </ul>
+           </div>
+<button class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="logo" href="index-2.html">Pxtar</a>
         </div>
   <div class="container-fluid main-nav clearfix">
     <div class="nav-collapse">
