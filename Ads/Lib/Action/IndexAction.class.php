@@ -1,39 +1,41 @@
 <?php
+
 // 本类由系统自动生成，仅供测试用途
 class IndexAction extends Action
 {
 
-    CONST TYPE_QQ = 1;
+    const TYPE_QQ = 1;
 
-    CONST TYPE_WANGYI = 2;
+    const TYPE_WANGYI = 2;
 
-    CONST TYPE_BUKA = 3;
+    const TYPE_BUKA = 3;
 
-    CONST STATUS_WAIT = 0;
+    const STATUS_WAIT = 0;
 
-    CONST STATUS_FINISH = 1;
+    const STATUS_FINISH = 1;
 
-    CONST STATUS_FAIL = 2;
+    const STATUS_FAIL = 2;
 
-    function __construct(){
+    function __construct()
+    {
         parent::__construct();
         error_reporting(E_ALL);
-        $is_login=session('is_login');
-        if(empty($is_login) && !$_POST){
+        $is_login = session('is_login');
+        if (empty($is_login) && ! $_POST) {
             layout(false);
             $this->display('login');
-            exit;
+            exit();
         }
-        //exit;
+        // exit;
     }
-    
+
     public function index()
     {
         $data = M("Comics");
         $result = $data->where("`is_del`='0' AND `type`='1'")
             ->order("`id` DESC")
             ->select();
-        //echo '<pre>';print_r($result);die;
+        // echo '<pre>';print_r($result);die;
         
         layout('Layout/layout');
         $this->assign([
@@ -101,9 +103,9 @@ class IndexAction extends Action
                 '采集时间',
                 '作品名',
                 '收藏量',
-                '人气值',                
+                '人气值',
                 '月票',
-                '话题数',
+                '话题数'
             );
         } elseif ($type == 2) {
             $name = '网易';
@@ -124,10 +126,10 @@ class IndexAction extends Action
                 '采集时间',
                 '作品名',
                 '收藏量',
-                '战斗力',
+                '战斗力'
             );
         }
-        //echo '<pre>';print_r($letter);print_r($tableheader);die(); 
+        // echo '<pre>';print_r($letter);print_r($tableheader);die();
         // 填充表头信息
         for ($i = 0; $i < count($tableheader); $i ++) {
             $excel->getActiveSheet()->setCellValue("$letter[$i]1", "$tableheader[$i]");
@@ -143,7 +145,7 @@ class IndexAction extends Action
             ->join(" `comics` c ON c.`id`=r.`comic_id` ")
             ->where(" c.`type`='%d' AND `caiji_date`>='%s' AND `caiji_date`<='%s'", $type, $beginDate, $endDate)
             ->select();
-        //echo $form->_sql();die;
+        // echo $form->_sql();die;
         // echo '<pre>';print_r($data);die();
         $data = [];
         
@@ -170,7 +172,7 @@ class IndexAction extends Action
         header("Content-Type:application/vnd.ms-execl");
         header("Content-Type:application/octet-stream");
         header("Content-Type:application/download");
-        header('Content-Disposition:attachment;filename="' . $name . '_采集_'.date("Y_m_d").'.xls"');
+        header('Content-Disposition:attachment;filename="' . $name . '_采集_' . date("Y_m_d") . '.xls"');
         header("Content-Transfer-Encoding:binary");
         $write->save('php://output');
         exit();
@@ -257,7 +259,7 @@ class IndexAction extends Action
         $preg_id = "/id\/([^?]+)/iu";
         $preg_sc = "/id=\"coll_count\">([^<]+)<\/em>/iu";
         $preg_rq = "/<span>.*<em>([^<]+)<\/em>/iu";
-        //$preg_pj = "/\(<span>(\d+)</iu";
+        // $preg_pj = "/\(<span>(\d+)</iu";
         $preg_topic = "/<em[^>]+>([^<]+)</iu";
         $date = date('Y-m-d');
         $time = date('H:i:s');
@@ -272,7 +274,7 @@ class IndexAction extends Action
             preg_match_all($preg_id, $url, $arr2, PREG_SET_ORDER);
             $id = $arr2[0][1];
             // echo '<pre>';print_r($arr2);die;
-            if (empty($id) || !is_numeric($id)) {
+            if (empty($id) || ! is_numeric($id)) {
                 $caiji_model->failComicGathering($comic_id);
                 continue;
             }
@@ -299,19 +301,18 @@ class IndexAction extends Action
             $ar['popularity'] = $arr[0][1];
             
             // 评价数\话题数
-            //preg_match_all($preg_pj, $content, $arr, PREG_SET_ORDER);
-            //$ar['comments'] = $arr[0][1];
+            // preg_match_all($preg_pj, $content, $arr, PREG_SET_ORDER);
+            // $ar['comments'] = $arr[0][1];
             
             // 本月月票，需要重新抓取一次
-            $url_target = "http://ac.qq.com/Comic/getMonthTicketInfo/id/" . $id . "?_=".$caiji_model->getRamdom(10000000000,100000000000); 
-            $content = $caiji_model->get_content($url_target, $referer_url);            
+            $url_target = "http://ac.qq.com/Comic/getMonthTicketInfo/id/" . $id . "?_=" . $caiji_model->getRamdom(10000000000, 100000000000);
+            $content = $caiji_model->get_content($url_target, $referer_url);
             $content = json_decode($content);
-            //$ar['monthTicketTotal'] = $content->monthTicket->monthTotal;
+            // $ar['monthTicketTotal'] = $content->monthTicket->monthTotal;
             $ar['monthTicketTotal'] = $content->monthTicket->mtNum;
             
-            
             // 评价数\话题数，需要抓取一次新页面
-            $url_topic = "http://ac.qq.com/Community/topicList?targetId=" . $id . "&page=1&_=".$caiji_model->getRamdom(10000000000,100000000000);
+            $url_topic = "http://ac.qq.com/Community/topicList?targetId=" . $id . "&page=1&_=" . $caiji_model->getRamdom(10000000000, 100000000000);
             $content2 = $caiji_model->get_content($url_topic, $referer_url);
             preg_match_all($preg_topic, $content2, $arr, PREG_SET_ORDER);
             $ar['topic'] = $arr[0][1];
@@ -341,7 +342,7 @@ class IndexAction extends Action
              * $strContent = "<?php \n return ".var_export($record, true)."\n;";
              * file_put_contents($file, $strContent);
              */
-            $caiji_model->upsert($ar, $comic_id,self::TYPE_QQ);
+            $caiji_model->upsert($ar, $comic_id, self::TYPE_QQ);
             $caiji_model->finishComicGathering($comic_id);
         }
         $caiji_model->delCookie();
@@ -380,7 +381,7 @@ class IndexAction extends Action
             
             // 获取漫画ID
             $id = substr($url, strrpos($url, '/') + 1);
-            if (empty($id) || !is_numeric($id)) {
+            if (empty($id) || ! is_numeric($id)) {
                 $caiji_model->failComicGathering($comic_id);
                 continue;
             }
@@ -411,7 +412,7 @@ class IndexAction extends Action
             $record['c_' . $comic_id] = $ar;
             // 输出内容
             // echo '<pre>';print_r($record);die;
-            $caiji_model->upsert($ar, $comic_id,self::TYPE_WANGYI);
+            $caiji_model->upsert($ar, $comic_id, self::TYPE_WANGYI);
             $caiji_model->finishComicGathering($comic_id);
         }
         $caiji_model->delCookie();
@@ -474,13 +475,13 @@ class IndexAction extends Action
         $referer = 'http://td.buka.cn/';
         // 模拟登录
         $login_result = $caiji_model->login_post($url_login, $post, $referer);
-        //echo '---<pre>';print_r($aa);die;
-        $login_result=json_decode($login_result);
-        //echo '<pre>';print_r($login_result);die;
-        if($login_result->ret!=0){//验证码错误
+        // echo '---<pre>';print_r($aa);die;
+        $login_result = json_decode($login_result);
+        // echo '<pre>';print_r($login_result);die;
+        if ($login_result->ret != 0) { // 验证码错误
             $caiji_model->delCookie();
-            $this->ajaxReturn([],'验证码错误',0);
-            exit;
+            $this->ajaxReturn([], '验证码错误', 0);
+            exit();
         }
         // 共有配置
         $preg_1 = "/window\.open\('([^']+)/iu";
@@ -492,12 +493,12 @@ class IndexAction extends Action
         /* 第四步：进入中转页获取列表页url，再从列表页进入目标页获取最终数据 */
         // 获取登中转页的信息
         $content = $caiji_model->get_content($url_zhongzhuan, $referer, 1);
-        // 匹配页面信息        
+        // 匹配页面信息
         preg_match_all($preg_1, $content, $arr, PREG_SET_ORDER);
         
         // 列表页地址
         $url_target2 = $arr[0][1];
-        //echo $url_target2;die;
+        // echo $url_target2;die;
         // 匹配页面信息
         $caiji_model->visit4cookie($url_target2);
         
@@ -509,16 +510,16 @@ class IndexAction extends Action
             
             // 获取漫画ID
             $id = substr($url, strrpos($url, '=') + 1);
-            if (empty($id) || !is_numeric($id)) {
+            if (empty($id) || ! is_numeric($id)) {
                 $caiji_model->failComicGathering($comic_id);
                 continue;
             }
             
             // 最终页面
-            //$url = 'http://td-stat.sosobook.cn/mangainfo.php?mid=' . $id;
-            //echo $url;die;
+            // $url = 'http://td-stat.sosobook.cn/mangainfo.php?mid=' . $id;
+            // echo $url;die;
             $content = $caiji_model->get_content($url, $url_zhongzhuan);
-            //echo $content;die;
+            // echo $content;die;
             preg_match_all($preg_2, $content, $arr, PREG_SET_ORDER);
             
             // 组装数据
@@ -528,11 +529,10 @@ class IndexAction extends Action
             $ar['attension'] = $arr[0][1]; // 收藏数
             $ar['strenghth'] = $arr[1][1]; // 战斗力
             
-            
             $record['c_' . $comic_id] = $ar;
             // 输出内容
-            //echo '<pre>';print_r($record);die;
-            $caiji_model->upsert($ar, $comic_id,self::TYPE_BUKA);
+            // echo '<pre>';print_r($record);die;
+            $caiji_model->upsert($ar, $comic_id, self::TYPE_BUKA);
             $caiji_model->finishComicGathering($comic_id);
         }
         $caiji_model->delCookie();
@@ -554,38 +554,38 @@ class IndexAction extends Action
         $result['fail'] = $model->getComicStatusInfo($type, self::STATUS_FAIL);
         $this->ajaxReturn($result, '数据获取成功！', 1);
     }
-    
+
     /**
      * 登陆
-     * */
-    function login(){
-        $username   = $this->_post("usr");
-        $pwd        = $this->_post("pwd");
-        if($_POST){
-            if($username!='pxtar' || $pwd!='Pxtar2017^'){
-                $this->error("账号或者密码错误！",U('index','',false));
-            }else{
-                session('is_login','1');
-                $this->success("登陆成功！",U('index','',false));
+     */
+    function login()
+    {
+        $username = $this->_post("usr");
+        $pwd = $this->_post("pwd");
+        if ($_POST) {
+            if ($username != 'pxtar' || $pwd != 'Pxtar2017^') {
+                $this->error("账号或者密码错误！", U('index', '', false));
+            } else {
+                session('is_login', '1');
+                $this->success("登陆成功！", U('index', '', false));
             }
-        }else{
-            $this->error("error",U('index','',false));
+        } else {
+            $this->error("error", U('index', '', false));
         }
-        
     }
-    
+
     /**
      * 登出
-     * */
-    function logout(){
-            
-        session('is_login','0');
-        $this->success("已登出！",U('index','',false));
+     */
+    function logout()
+    {
+        session('is_login', '0');
+        $this->success("已登出！", U('index', '', false));
     }
-    
+
     public function test()
     {
-        //set_time_limit(0);
+        // set_time_limit(0);
         session_write_close();
         sleep(10);
     }
